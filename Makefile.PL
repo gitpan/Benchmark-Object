@@ -5,7 +5,7 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     NAME              => 'Benchmark::Object',
     VERSION_FROM      => 'lib/Benchmark/Object.pm', # finds $VERSION
-    PREREQ_PM         => {Time::HiRes => 1.9725}, # e.g., Module::Name => 1.1
+    PREREQ_PM         => {'Time::HiRes' => 1.9725}, # e.g., Module::Name => 1.1
     ($] >= 5.005 ?     ## Add these new keywords supported since 5.005
       (ABSTRACT_FROM  => 'lib/Benchmark/Object.pm', # retrieve abstract from module
        AUTHOR         => 'Vipin Singh <qwer@cpan.org>') : ()),

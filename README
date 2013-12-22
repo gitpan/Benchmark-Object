@@ -1,4 +1,4 @@
-Benchmark-Object version 0.03
+Benchmark-Object version 0.04
 ==============================
 
 The README is used to introduce the module and provide instructions on
@@ -29,7 +29,7 @@ This module requires these other modules and libraries:
 
 COPYRIGHT AND LICENCE
 
-Copyright (C) 2013 by Vipin Singh
+Copyright (C) 2013 by Vipin Singh<qwer@cpan.org>
 
 This library is free and with no warranty. You can redistribute it and/or modify
 it under the same terms as Perl itself.

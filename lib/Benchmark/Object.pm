@@ -3,7 +3,7 @@ use strict;
 use warnings;
 use Time::HiRes qw(gettimeofday);
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 sub start {
     my $class = shift;
